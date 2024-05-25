@@ -1,4 +1,6 @@
-Sky Blue
-250 5
-Black
-500 4
+Shakil Ahmed
+20
+4000
+Noyon Ahmed
+10
+1000
