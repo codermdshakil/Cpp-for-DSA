@@ -1,13 +1,2 @@
-Name - Nadim Hassan
-Age - 20
-CGPA - 4
-
-
-Name - Noyon Rahman
-Age - 9
-CGPA - 4.5
-
-
-Name - Shakil Ahmed
-Age - 16
-CGPA - 3.67
+Rakib Hassan 29 3.9
+Sakib Al Hassan 30 3.85
