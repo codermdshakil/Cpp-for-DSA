@@ -9,30 +9,36 @@ int main()
     int b;
     cin >> b;
 
+    // determine a result variable inisally true
+    bool result;
 
-
-    
     // Check if the input character is '>'
-    if (inputChar == '>')
+    if (inputChar == '<')
     {
-        if (a > b)
-        {
-            cout << "Right" << endl;
-        };
+        result = (a < b);
     }
-    else if (inputChar == '<') // Check if the input character is '<'
+    else if (inputChar == '>') // Check if the input character is '<'
     {
-        if (b < a)
-        {
-            cout << "Wrong" << endl;
-        }
+        result = (a > b);
     }
     else if (inputChar == '=') // Check if the input character is '='
     {
-        if (a = b)
-        {
-            cout << "Right" << endl;
-        }
+        result = (a == b);
+    }
+    else
+    {
+        result = false;
+    }
+
+    // show result
+    if (result)
+    {
+        cout << "Right" << endl;
+    }
+    else
+    {
+
+        cout << "Wrong" << endl;
     }
 
     return 0;
