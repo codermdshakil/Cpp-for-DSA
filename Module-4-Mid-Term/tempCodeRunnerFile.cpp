@@ -1,9 +1,12 @@
- // for (int i = 0; i < n; i++)
-    // {
-    //     cin >> ar[i];
-    // }
+#include <iostream>
+// #include <string>
 
-    // for (int i = 0; i <  n; i++)
-    // {
-    //     cout<< ar[i];
-    // }
+// int main() {
+//     std::string line;
+//     // Loop to read lines until EOF
+//     while (std::getline(std::cin, line)) {
+//         // Process the line
+//         std::cout << "You entered: " << line << std::endl;
+//     }
+//     return 0;
+// }
