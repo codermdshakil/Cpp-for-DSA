@@ -22,7 +22,7 @@ int main()
     // a = "gelo";
     // a.assign("Gelo");
 
-    // from string remove a portion
+    // Erase
     //----------------------------- 
     // string a = "Helloworld";
     // a.erase(4); // if i sent just one parameter Including this number remove all character in string
