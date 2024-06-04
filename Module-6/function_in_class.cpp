@@ -9,13 +9,20 @@ public:
     int weight;
     int marks1;
     int marks2;
-    Person(string nm, int ag, int wh, int m1, int m2)
+    Person(string name, int age, int weight, int marks1, int marks2)
     {
-        name = nm;
-        age = ag;
-        weight = wh;
-        marks1 = m1;
-        marks2 = m2;
+        // name = nm;
+        // age = ag;
+        // weight = wh;
+        // marks1 = m1;
+        // marks2 = m2;
+        // if object name and function parameter variable names are same 
+        this->name = name;
+        this->age = age;
+        this->weight = weight;
+        this->marks1 = marks1;
+        this->marks2 = marks2;
+
     };
     void hello()
     {
@@ -35,7 +42,6 @@ int main()
     // shakil.hello();
     cout << shakil.total_marks() << endl;
 
-    // cout << shakil.name << " " << shakil.age << " " << shakil.weight << endl;
 
     return 0;
 }
