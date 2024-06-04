@@ -7,11 +7,17 @@ void print(stringstream &ss)
     // create a variable to store word
     string word;
 
-    if (ss >> word)
-    {
-        print(ss); // called print before print that's why it print like reverse
-        cout << word << endl;
-    }
+    // if (ss >> word)
+    // {
+    //     print(ss); // called print before print that's why it print like reverse
+    //     cout << word << endl;
+    // }
+
+    // while (ss >> word)
+    // {
+    //     print(ss);
+    //     cout << word << endl;
+    // }
 }
 
 int main()

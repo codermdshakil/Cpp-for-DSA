@@ -1,24 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void print_it(string s)
+void print(stringstream &ss)
 {
-    if (s.size() == 0)
+    string word;
+    while (ss >> word)
     {
-        return;
+        print(ss);
+        cout << word << endl;
     }
-    else{
-        
-    }
-    
-
 }
 
 int main()
 {
     string s;
     getline(cin, s);
-    print_it(s);
-
+    stringstream ss(s);
+    print(ss);
     return 0;
 }
