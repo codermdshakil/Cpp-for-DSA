@@ -20,22 +20,20 @@ int main()
         cin >> a[i].name >> a[i].roll >> a[i].marks;
     }
 
-    // find min
-    int mn = INT_MAX;
+    // find min marks object
+    Student mn;
+    mn.marks = INT_MAX;
 
     for (int i = 0; i < n; i++)
     {
-        cout << a[i].name << " " << a[i].roll << " " << a[i].marks << endl;
-
-        // check
-        if (a[i].marks < mn)
+        // check minimum marks and then find min marks object and store min to mn object
+        if (a[i].marks < mn.marks)
         {
-            mn = a[i].marks;
+            mn = a[i];
         }
     }
 
-    // print min
-    cout << mn;
+    cout << mn.name << " " << mn.roll << " " << mn.marks << endl;
 
     return 0;
 }
