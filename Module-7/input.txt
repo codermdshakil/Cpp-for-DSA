@@ -1,6 +1,5 @@
-5
-Rifat 10 90
-Sifat 15 90
-Akib 12 90
-Sakib 13 90
-Rakib 9 90
+4
+rakib 24
+sakib 30
+raju 27
+ahsan 25
