@@ -26,7 +26,13 @@ int main()
         for (int j = i + 1; j < n; j++)
         {
             // assending order based on marks
-            if (a[i].marks > a[j].marks)
+            // if (a[i].marks > a[j].marks)
+            // {
+            //     // called swap function
+            //     swap(a[i], a[j]);
+            // }
+            // dessending order based on marks
+            if (a[i].marks < a[j].marks)
             {
                 // called swap function
                 swap(a[i], a[j]);
