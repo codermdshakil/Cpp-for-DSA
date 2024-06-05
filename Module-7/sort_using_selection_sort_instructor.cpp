@@ -25,15 +25,23 @@ int main()
     {
         for (int j = i + 1; j < n; j++)
         {
-            // assending order based on marks
-            if (a[i].marks > a[j].marks)
+            // dessending order based on marks
+            if (a[i].marks < a[j].marks)
             {
                 // called swap function
                 swap(a[i], a[j]);
             }
+            else if (a[i].marks == a[j].marks) // if marks 2 same then roll jar kom see age thakbe
+            {
+                // assending
+                if (a[i].roll > a[j].roll)
+                {
+                    swap(a[i], a[j]);
+                }
+            }
 
-            // dessending order based on marks
-            // if (a[i].marks < a[j].marks)
+            // aessending order based on marks
+            // if (a[i].marks > a[j].marks)
             // {
             //     // called swap function
             //     swap(a[i], a[j]);
