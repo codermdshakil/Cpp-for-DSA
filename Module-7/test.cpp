@@ -25,10 +25,11 @@ int main()
         cin >> a[i].roll >> a[i].marks;
     }
 
+    int ar[n];
     // Prints objects
     for (int i = 0; i < n; i++)
     {
-        cout << a[i].name << " " <<a[i].roll << " " << a[i].marks << endl;
+        cout << a[i].marks << endl;
     }
 
     return 0;

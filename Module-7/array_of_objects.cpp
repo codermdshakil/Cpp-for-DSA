@@ -4,7 +4,7 @@ using namespace std;
 class Student
 {
 public:
-    string name;
+    string names;
     int roll;
     int marks;
 };
@@ -13,22 +13,25 @@ int main()
 {
     int n;
     cin >> n;
+    // getchar();
 
-    // create dynamic array of objects
+    // create array of objects
+    // Student a[n];
+
+    // int *p = new int[n];
+    // Dynamic array
     Student *a = new Student[n];
-
-    // take input objects
+    // input values
     for (int i = 0; i < n; i++)
     {
-        getchar();
-        getline(cin, a[i].name);
+        getchar(); // good
+        getline(cin, a[i].names);
         cin >> a[i].roll >> a[i].marks;
+        // getchar();
     }
-
-    // Prints objects
     for (int i = 0; i < n; i++)
     {
-        cout << a[i].name << " " <<a[i].roll << " " << a[i].marks << endl;
+        cout << a[i].names << " " << a[i].roll << " " << a[i].marks << endl;
     }
 
     return 0;
