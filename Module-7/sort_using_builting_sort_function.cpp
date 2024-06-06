@@ -11,16 +11,45 @@ public:
 
 bool cmp(Student a, Student b)
 {
-    // sort assending order compare function
-    if (a.marks <= b.marks)
+    // shortcut way
+
+    if (a.marks == b.marks)
     {
-        return true;
+        return a.roll < b.roll;
     }
     else
     {
-        return false;
+        return a.marks > b.marks;
     }
+
+    // step by step way
+
+    // sort assending order compare function
+    // if (a.marks > b.marks)
+    // {
+    //     return true;
+    // }
+    // else if (a.marks < b.marks)
+    // {
+    //     return false;
+    // }
+    // else
+    // {
+    // if (a.roll < b.roll)
+    // {
+    //     return true;
+    // }
+    // else
+    // {
+    //     return false;
+    // }
+
+    // shortcut
+    // return a.roll < b.roll;
 }
+
+// // sortcut
+// return a.marks <= b.marks;
 
 int main()
 {

@@ -1,5 +1,5 @@
-Sakib 13 65
-Akib 12 76
-Rifat 10 79
-Sifat 15 80
-Rakib 9 90
+Sakib 15 99
+Rifat 10 90
+Akib 12 90
+Sifat 13 90
+Rakib 9 85
