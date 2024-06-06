@@ -1,1 +1,7 @@
-aadmm
+abczbzczcz
+z 4
+c 3
+b 2
+a 1
+----------
+zzzzcccbba

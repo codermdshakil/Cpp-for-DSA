@@ -6,8 +6,9 @@ int main()
 
     string s;
     cin >> s;
-
+    // object from a to z 
     int frq[26] = {0};
+
     for (char c : s)
     {
         frq[c - 'a']++;
