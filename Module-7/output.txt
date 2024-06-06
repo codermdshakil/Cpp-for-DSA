@@ -1,7 +1,5 @@
-abczbzczcz
+zzzzaaaa
+a 4
 z 4
-c 3
-b 2
-a 1
 ----------
-zzzzcccbba
+aaaazzzz
