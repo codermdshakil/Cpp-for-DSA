@@ -1,24 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int print(stringstream &ss)
-{
-    string word;
-    int flag = 0;
-    if (ss >> word)
-    {
-        if (word == "Jessica")
-        {
-            return 1;
-            print(ss);
-        }
-        else
-        {
-            return 0;
-            print(ss);
-        }
-    }
-}
 
 int main()
 {
